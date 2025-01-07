@@ -2,10 +2,12 @@ import java.io.*;
 import java.text.DecimalFormat;
 
 
-public class Trabalho2 {
+public class LuxCorpus 
+{
 
 
-public static void main (String [] args) throws IOException{
+  public static void main (String [] args) throws IOException
+  {
 
 		BufferedReader br = new BufferedReader (new InputStreamReader (System.in));
 		DecimalFormat mt = new DecimalFormat("###,###,###.00MTs");
